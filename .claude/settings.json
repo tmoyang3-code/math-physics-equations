@@ -210,7 +210,9 @@
       "Bash(git rm *)",
       "Bash(git commit -m '整理 gitignore *)",
       "Bash(git remote *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(ssh-keygen -t ed25519 -C \"tmoyang3-code\" -f ~/.ssh/id_ed25519 -N \"\")",
+      "Bash(ssh-keyscan github.com)"
     ],
     "additionalDirectories": [
       "/Users/tmo/.claude/skills",
