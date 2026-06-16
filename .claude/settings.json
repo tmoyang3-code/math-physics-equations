@@ -208,7 +208,9 @@
       "Bash(git add *)",
       "Bash(git commit -m '初始提交：数学物理方程项目 *)",
       "Bash(git rm *)",
-      "Bash(git commit -m '整理 gitignore *)"
+      "Bash(git commit -m '整理 gitignore *)",
+      "Bash(git remote *)",
+      "Bash(git push *)"
     ],
     "additionalDirectories": [
       "/Users/tmo/.claude/skills",
