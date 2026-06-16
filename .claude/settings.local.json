@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Bash(git *)",
+      "PowerShell(Get-Content \"c:\\\\Users\\\\58443\\\\Desktop\\\\math-physics-equations\\\\.claude\\\\settings.local.json\" | ConvertFrom-Json | ForEach-Object { $_.hooks.SessionStart[0].hooks[0].command })"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "git pull origin main",
+            "shell": "bash",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
