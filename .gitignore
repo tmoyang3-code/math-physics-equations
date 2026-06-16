@@ -20,5 +20,6 @@
 *~
 .DS_Store
 
-# PDF (如果不想追踪PDF，取消下面注释)
-# *.pdf
+# 本地工具数据
+.claude/settings.local.json
+.workbuddy/

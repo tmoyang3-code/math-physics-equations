@@ -206,7 +206,9 @@
       "Bash(/opt/homebrew/bin/gh auth *)",
       "Bash(/opt/homebrew/bin/gh repo *)",
       "Bash(git add *)",
-      "Bash(git commit -m '初始提交：数学物理方程项目 *)"
+      "Bash(git commit -m '初始提交：数学物理方程项目 *)",
+      "Bash(git rm *)",
+      "Bash(git commit -m '整理 gitignore *)"
     ],
     "additionalDirectories": [
       "/Users/tmo/.claude/skills",
