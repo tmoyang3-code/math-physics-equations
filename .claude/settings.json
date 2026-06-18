@@ -273,7 +273,8 @@
       "Bash(python3 -c \"import pix2text; print\\('pix2text available'\\)\")",
       "Bash(python3 ocr_ch3.py)",
       "Bash(python3 -m pix2text --help)",
-      "Bash(python3 ocr_ch3_full.py)"
+      "Bash(python3 ocr_ch3_full.py)",
+      "Bash(gh repo *)"
     ],
     "additionalDirectories": [
       "/Users/tmo/.claude/skills",
