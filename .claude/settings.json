@@ -274,7 +274,17 @@
       "Bash(python3 ocr_ch3.py)",
       "Bash(python3 -m pix2text --help)",
       "Bash(python3 ocr_ch3_full.py)",
-      "Bash(gh repo *)"
+      "Bash(gh repo *)",
+      "Bash(sudo du -sh /var/folders)",
+      "Bash(sudo du -sh /var/folders/*/*/*)",
+      "Bash(diskutil list *)",
+      "Read(//Volumes/TMo/**)",
+      "Bash(diskutil info *)",
+      "Bash(sudo du -sh /System/Volumes/Data/Applications /System/Volumes/Data/Users /System/Volumes/Data/Library /System/Volumes/Data/System /System/Volumes/Data/private)",
+      "Bash(diskutil apfs *)",
+      "Bash(awk '{print $11}')",
+      "Bash(rm -rf /Volumes/TMo/应用数据/WeChat/com.tencent.xinWeChat)",
+      "Bash(ditto ~/Library/Containers/com.tencent.xinWeChat /Volumes/TMo/应用数据/WeChat/com.tencent.xinWeChat)"
     ],
     "additionalDirectories": [
       "/Users/tmo/.claude/skills",
