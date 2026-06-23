@@ -284,7 +284,22 @@
       "Bash(diskutil apfs *)",
       "Bash(awk '{print $11}')",
       "Bash(rm -rf /Volumes/TMo/应用数据/WeChat/com.tencent.xinWeChat)",
-      "Bash(ditto ~/Library/Containers/com.tencent.xinWeChat /Volumes/TMo/应用数据/WeChat/com.tencent.xinWeChat)"
+      "Bash(ditto ~/Library/Containers/com.tencent.xinWeChat /Volumes/TMo/应用数据/WeChat/com.tencent.xinWeChat)",
+      "WebFetch(domain:claude.ai)",
+      "WebFetch(domain:openai.com)",
+      "WebFetch(domain:claude.com)",
+      "WebFetch(domain:codex.ai)",
+      "WebFetch(domain:hermes.ai)",
+      "WebFetch(domain:chatgpt.com)",
+      "Bash(brew search *)",
+      "Bash(mas search *)",
+      "Bash(mdfind -name hermes)",
+      "Bash(sqlite3 /Users/tmo/.hermes/state.db \".tables\")",
+      "Bash(sqlite3 /Users/tmo/.hermes/state.db \"SELECT name, sql FROM sqlite_master WHERE type='table';\")",
+      "Bash(sqlite3 /Users/tmo/.hermes/state.db \"SELECT key, value FROM state_meta;\")",
+      "Bash(sqlite3 /Users/tmo/.hermes/state.db \"SELECT id, model, model_config, billing_provider FROM sessions ORDER BY started_at DESC LIMIT 5;\")",
+      "Bash(/Users/tmo/.hermes/hermes-agent/venv/bin/hermes model *)",
+      "Bash(/Users/tmo/.hermes/hermes-agent/venv/bin/hermes doctor *)"
     ],
     "additionalDirectories": [
       "/Users/tmo/.claude/skills",

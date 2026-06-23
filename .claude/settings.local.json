@@ -4,7 +4,14 @@
       "Skill(update-config)",
       "Skill(update-config:*)",
       "Bash(git *)",
-      "PowerShell(Get-Content \"c:\\\\Users\\\\58443\\\\Desktop\\\\math-physics-equations\\\\.claude\\\\settings.local.json\" | ConvertFrom-Json | ForEach-Object { $_.hooks.SessionStart[0].hooks[0].command })"
+      "PowerShell(Get-Content \"c:\\\\Users\\\\58443\\\\Desktop\\\\math-physics-equations\\\\.claude\\\\settings.local.json\" | ConvertFrom-Json | ForEach-Object { $_.hooks.SessionStart[0].hooks[0].command })",
+      "WebFetch(domain:docs.anthropic.com)",
+      "WebFetch(domain:marketplace.visualstudio.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(gh issue *)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d['title']\\); print\\('---'\\); print\\(d['body'][:2000]\\)\")",
+      "Bash(gh search *)",
+      "Bash(gh api *)"
     ]
   },
   "hooks": {
