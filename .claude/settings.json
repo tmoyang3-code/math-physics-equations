@@ -320,7 +320,8 @@
       "Bash(python3 -c \"import ocrmypdf; print\\('ocrmypdf found'\\)\")",
       "Bash(python3 -m pip list)",
       "Bash(command -v pdfinfo)",
-      "Bash(pdfinfo \"第03章_波动方程的初值柯西问题与行波法_PDF页52-78.pdf\")"
+      "Bash(pdfinfo \"第03章_波动方程的初值柯西问题与行波法_PDF页52-78.pdf\")",
+      "Bash(awk 'NR>=322 && NR<=396' \"11_考前背诵手册.md\")"
     ],
     "additionalDirectories": [
       "/Users/tmo/.claude/skills",
